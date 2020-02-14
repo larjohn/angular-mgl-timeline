@@ -1,0 +1,35 @@
+{
+  "name": "angular-mgl-timeline",
+  "author": "Markus Glutting",
+  "version": "0.3.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glutengo/angular-mgl-timeline.git"
+  },
+  "private": false,
+  "peerDependencies": {
+    "@angular/animations": "^9.0.1",
+    "@angular/common": "^9.0.1",
+    "@angular/compiler": "^9.0.1",
+    "@angular/core": "^9.0.1",
+    "@angular/platform-browser": "^9.0.1",
+    "@angular/platform-browser-dynamic": "^9.0.1",
+    "core-js": "^3.6.4",
+    "rxjs": "^6.5.4",
+    "zone.js": "^0.10.2"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "main": "bundles/angular-mgl-timeline.umd.js",
+  "module": "fesm5/angular-mgl-timeline.js",
+  "es2015": "fesm2015/angular-mgl-timeline.js",
+  "esm5": "esm5/angular-mgl-timeline.js",
+  "esm2015": "esm2015/angular-mgl-timeline.js",
+  "fesm5": "fesm5/angular-mgl-timeline.js",
+  "fesm2015": "fesm2015/angular-mgl-timeline.js",
+  "typings": "angular-mgl-timeline.d.ts",
+  "metadata": "angular-mgl-timeline.metadata.json",
+  "sideEffects": false
+}

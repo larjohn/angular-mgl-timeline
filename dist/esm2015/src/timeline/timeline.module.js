@@ -1,0 +1,32 @@
+import { __decorate } from "tslib";
+import { MglTimelineEntryHeaderComponent } from './timeline-entry-header/timeline-entry-header.component';
+import { MglTimelineEntryDotComponent } from './timeline-entry-dot/timeline-entry-dot.component';
+import { MglTimelineEntryContentComponent } from './timeline-entry-content/timeline-entry-content.component';
+import { MglTimelineEntrySideComponent } from './timeline-entry-side/timeline-entry-side.component';
+import { MglTimelineEntryComponent } from './timeline-entry/timeline-entry.component';
+import { MglTimelineComponent } from './timeline/timeline.component';
+import { NgModule } from '@angular/core';
+let MglTimelineModule = class MglTimelineModule {
+};
+MglTimelineModule = __decorate([
+    NgModule({
+        declarations: [
+            MglTimelineComponent,
+            MglTimelineEntryComponent,
+            MglTimelineEntryHeaderComponent,
+            MglTimelineEntrySideComponent,
+            MglTimelineEntryContentComponent,
+            MglTimelineEntryDotComponent
+        ],
+        exports: [
+            MglTimelineComponent,
+            MglTimelineEntryComponent,
+            MglTimelineEntryHeaderComponent,
+            MglTimelineEntrySideComponent,
+            MglTimelineEntryContentComponent,
+            MglTimelineEntryDotComponent
+        ]
+    })
+], MglTimelineModule);
+export { MglTimelineModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZWxpbmUubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Im5nOi8vYW5ndWxhci1tZ2wtdGltZWxpbmUvIiwic291cmNlcyI6WyJzcmMvdGltZWxpbmUvdGltZWxpbmUubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsK0JBQStCLEVBQUUsTUFBTSx5REFBeUQsQ0FBQztBQUMxRyxPQUFPLEVBQUUsNEJBQTRCLEVBQUUsTUFBTSxtREFBbUQsQ0FBQztBQUNqRyxPQUFPLEVBQUUsZ0NBQWdDLEVBQUUsTUFBTSwyREFBMkQsQ0FBQztBQUM3RyxPQUFPLEVBQUUsNkJBQTZCLEVBQUUsTUFBTSxxREFBcUQsQ0FBQztBQUNwRyxPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSwyQ0FBMkMsQ0FBQztBQUN0RixPQUFPLEVBQUUsb0JBQW9CLEVBQUUsTUFBTSwrQkFBK0IsQ0FBQztBQUNyRSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBbUJ6QyxJQUFhLGlCQUFpQixHQUE5QixNQUFhLGlCQUFpQjtDQUFJLENBQUE7QUFBckIsaUJBQWlCO0lBbEI3QixRQUFRLENBQUM7UUFDUixZQUFZLEVBQUU7WUFDWixvQkFBb0I7WUFDcEIseUJBQXlCO1lBQ3pCLCtCQUErQjtZQUMvQiw2QkFBNkI7WUFDN0IsZ0NBQWdDO1lBQ2hDLDRCQUE0QjtTQUM3QjtRQUNELE9BQU8sRUFBRTtZQUNQLG9CQUFvQjtZQUNwQix5QkFBeUI7WUFDekIsK0JBQStCO1lBQy9CLDZCQUE2QjtZQUM3QixnQ0FBZ0M7WUFDaEMsNEJBQTRCO1NBQzdCO0tBQ0YsQ0FBQztHQUNXLGlCQUFpQixDQUFJO1NBQXJCLGlCQUFpQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE1nbFRpbWVsaW5lRW50cnlIZWFkZXJDb21wb25lbnQgfSBmcm9tICcuL3RpbWVsaW5lLWVudHJ5LWhlYWRlci90aW1lbGluZS1lbnRyeS1oZWFkZXIuY29tcG9uZW50JztcclxuaW1wb3J0IHsgTWdsVGltZWxpbmVFbnRyeURvdENvbXBvbmVudCB9IGZyb20gJy4vdGltZWxpbmUtZW50cnktZG90L3RpbWVsaW5lLWVudHJ5LWRvdC5jb21wb25lbnQnO1xyXG5pbXBvcnQgeyBNZ2xUaW1lbGluZUVudHJ5Q29udGVudENvbXBvbmVudCB9IGZyb20gJy4vdGltZWxpbmUtZW50cnktY29udGVudC90aW1lbGluZS1lbnRyeS1jb250ZW50LmNvbXBvbmVudCc7XHJcbmltcG9ydCB7IE1nbFRpbWVsaW5lRW50cnlTaWRlQ29tcG9uZW50IH0gZnJvbSAnLi90aW1lbGluZS1lbnRyeS1zaWRlL3RpbWVsaW5lLWVudHJ5LXNpZGUuY29tcG9uZW50JztcclxuaW1wb3J0IHsgTWdsVGltZWxpbmVFbnRyeUNvbXBvbmVudCB9IGZyb20gJy4vdGltZWxpbmUtZW50cnkvdGltZWxpbmUtZW50cnkuY29tcG9uZW50JztcclxuaW1wb3J0IHsgTWdsVGltZWxpbmVDb21wb25lbnQgfSBmcm9tICcuL3RpbWVsaW5lL3RpbWVsaW5lLmNvbXBvbmVudCc7XHJcbmltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcbkBOZ01vZHVsZSh7XHJcbiAgZGVjbGFyYXRpb25zOiBbXHJcbiAgICBNZ2xUaW1lbGluZUNvbXBvbmVudCxcclxuICAgIE1nbFRpbWVsaW5lRW50cnlDb21wb25lbnQsXHJcbiAgICBNZ2xUaW1lbGluZUVudHJ5SGVhZGVyQ29tcG9uZW50LFxyXG4gICAgTWdsVGltZWxpbmVFbnRyeVNpZGVDb21wb25lbnQsXHJcbiAgICBNZ2xUaW1lbGluZUVudHJ5Q29udGVudENvbXBvbmVudCxcclxuICAgIE1nbFRpbWVsaW5lRW50cnlEb3RDb21wb25lbnRcclxuICBdLFxyXG4gIGV4cG9ydHM6IFtcclxuICAgIE1nbFRpbWVsaW5lQ29tcG9uZW50LFxyXG4gICAgTWdsVGltZWxpbmVFbnRyeUNvbXBvbmVudCxcclxuICAgIE1nbFRpbWVsaW5lRW50cnlIZWFkZXJDb21wb25lbnQsXHJcbiAgICBNZ2xUaW1lbGluZUVudHJ5U2lkZUNvbXBvbmVudCxcclxuICAgIE1nbFRpbWVsaW5lRW50cnlDb250ZW50Q29tcG9uZW50LFxyXG4gICAgTWdsVGltZWxpbmVFbnRyeURvdENvbXBvbmVudFxyXG4gIF1cclxufSlcclxuZXhwb3J0IGNsYXNzIE1nbFRpbWVsaW5lTW9kdWxlIHsgfVxyXG4iXX0=

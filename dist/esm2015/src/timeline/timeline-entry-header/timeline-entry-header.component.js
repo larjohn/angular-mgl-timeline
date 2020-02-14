@@ -1,0 +1,14 @@
+import { __decorate } from "tslib";
+import { Component, ViewEncapsulation } from '@angular/core';
+let MglTimelineEntryHeaderComponent = class MglTimelineEntryHeaderComponent {
+};
+MglTimelineEntryHeaderComponent = __decorate([
+    Component({
+        selector: 'mgl-timeline-entry-header',
+        template: "<ng-content></ng-content>",
+        encapsulation: ViewEncapsulation.None,
+        styles: ["mgl-timeline-entry-header{position:relative;display:block;overflow:hidden;padding:15px;text-align:center}"]
+    })
+], MglTimelineEntryHeaderComponent);
+export { MglTimelineEntryHeaderComponent };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidGltZWxpbmUtZW50cnktaGVhZGVyLmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2FuZ3VsYXItbWdsLXRpbWVsaW5lLyIsInNvdXJjZXMiOlsic3JjL3RpbWVsaW5lL3RpbWVsaW5lLWVudHJ5LWhlYWRlci90aW1lbGluZS1lbnRyeS1oZWFkZXIuY29tcG9uZW50LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxPQUFPLEVBQUUsU0FBUyxFQUFVLGlCQUFpQixFQUFFLE1BQU0sZUFBZSxDQUFDO0FBUXJFLElBQWEsK0JBQStCLEdBQTVDLE1BQWEsK0JBQStCO0NBRTNDLENBQUE7QUFGWSwrQkFBK0I7SUFOM0MsU0FBUyxDQUFDO1FBQ1QsUUFBUSxFQUFFLDJCQUEyQjtRQUNyQyxxQ0FBcUQ7UUFFckQsYUFBYSxFQUFFLGlCQUFpQixDQUFDLElBQUk7O0tBQ3RDLENBQUM7R0FDVywrQkFBK0IsQ0FFM0M7U0FGWSwrQkFBK0IiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21wb25lbnQsIE9uSW5pdCwgVmlld0VuY2Fwc3VsYXRpb24gfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuXHJcbkBDb21wb25lbnQoe1xyXG4gIHNlbGVjdG9yOiAnbWdsLXRpbWVsaW5lLWVudHJ5LWhlYWRlcicsXHJcbiAgdGVtcGxhdGVVcmw6ICcuL3RpbWVsaW5lLWVudHJ5LWhlYWRlci5jb21wb25lbnQuaHRtbCcsXHJcbiAgc3R5bGVVcmxzOiBbJy4vdGltZWxpbmUtZW50cnktaGVhZGVyLmNvbXBvbmVudC5zY3NzJ10sXHJcbiAgZW5jYXBzdWxhdGlvbjogVmlld0VuY2Fwc3VsYXRpb24uTm9uZVxyXG59KVxyXG5leHBvcnQgY2xhc3MgTWdsVGltZWxpbmVFbnRyeUhlYWRlckNvbXBvbmVudCB7XHJcbiAgXHJcbn1cclxuIl19
