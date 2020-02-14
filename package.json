@@ -10,7 +10,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "package": "ng-packagr -p ng-package.json && cp src/timeline/timeline.theme.scss dist/theme.scss"
+    "package": "ng-packagr -p ng-package.json && cp src/timeline/timeline.theme.scss dist/theme.scss",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
